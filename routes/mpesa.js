@@ -50,7 +50,7 @@ router.post("/stkpush", async (req, res) => {
 
     res.status(200).json(data);
   } catch (err) {
-    res.status(500).json({ message: "MPESA STK Push failed.", error: err.message });
+    res.status(500).json({ message: "Transaction failed.", error: err.message, details: err.response?.data });
   }
 });
 
