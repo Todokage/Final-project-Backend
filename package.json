@@ -1,0 +1,27 @@
+{
+  "name": "final-project-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "types": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Todokage/Final-project-Backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Todokage/Final-project-Backend/issues"
+  },
+  "homepage": "https://github.com/Todokage/Final-project-Backend#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "mongoose": "^8.16.1"
+  }
+}

@@ -3,7 +3,7 @@ import mongoose from "mongoose";
 import cors from "cors";
 import dotenv from "dotenv";
 import authRoutes from "./routes/auth.js";
-import bookingRoutes from "./routes/bookings.js";
+import bookingRoutes from "./routes/booking.js"; // <-- fixed import
 import feedbackRoutes from "./routes/feedback.js";
 import hotelRoutes from "./routes/hotels.js";
 import mpesaRoutes from "./routes/mpesa.js";
