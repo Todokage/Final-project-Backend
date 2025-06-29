@@ -27,6 +27,9 @@ app.use("/api/feedback", feedbackRoutes);
 app.use("/api/hotels", hotelRoutes);
 app.use("/api/mpesa", mpesaRoutes);
 
+app.get("/", (req, res) => {
+  res.send("API is running!");
+});
 // Email endpoint (optional, for booking confirmation)
 import sendEmail from "./utils/sendEmail.js";
 app.post("/api/email/booking", async (req, res) => {
